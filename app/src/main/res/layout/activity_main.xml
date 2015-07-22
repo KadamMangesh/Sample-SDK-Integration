@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/main_activity_padding"
+    android:background="@color/main_activity_background_color"
+    tools:context=".MainActivity">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.citrus.sdk.ui.CitrusActivity"
+        tools:ignore="MergeRootFrame"/>
+
+ <!--  &lt;!&ndash; <TextView
+        android:id="@+id/titleTxtViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/main_activity_title_text"
+        android:textSize="25sp"
+        android:textStyle="bold" />&ndash;&gt;
+
+    <ImageView
+        android:id="@+id/homeImgViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_activity_home_image_margintop"
+        android:background="@drawable/home_image" />
+
+    <LinearLayout
+        android:id="@+id/loginLayoutId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/homeImgViewId"
+        android:layout_marginTop="@dimen/main_activity_login_layout_margintop"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/emailEdTxtId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/main_activity_login_email_edtxt_margintop"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/passwordEdtxtId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/main_activity_login_password_edtxt_margintop"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginLayoutId"
+        android:layout_centerHorizontal="true"
+        android:background="@color/main_activity_button_color"
+        android:layout_marginTop="@dimen/main_activity_login_button_margintop"
+        android:text="@string/main_activity_login_btn_pay_text" />-->
+
+
+</RelativeLayout>

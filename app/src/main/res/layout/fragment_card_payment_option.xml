@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_activity_background_color"
+    tools:context=".CardFragment">
+
+    <ScrollView
+        android:id="@+id/personalDetailsScrollViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:id="@+id/submitLayoutId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:id="@+id/cardNumberLayoutId"
+                style="@style/card_layout_style"
+                android:layout_gravity="top">
+
+                <TextView
+                    style="@style/card_text_style"
+                    android:text="@string/card_number_text"
+                    android:textColorHint="@android:color/darker_gray" />
+
+                <com.citrus.widgets.CardNumberEditText
+                    android:id="@+id/cardHolderNumberEdTxtId"
+                    style="@style/card_edit_text_style"
+                    android:hint="@string/card_number_hint"
+                    android:imeOptions="actionNext"
+                    android:inputType="number|none" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cardNameLayoutId"
+                style="@style/card_layout_style"
+                android:layout_below="@+id/cardNumberLayoutId"
+                android:layout_gravity="top">
+
+                <TextView
+                    style="@style/card_text_style"
+                    android:text="@string/card_holder_name_text" />
+
+                <EditText
+                    android:id="@+id/cardHolderNameEdTxtId"
+                    style="@style/card_edit_text_style"
+                    android:hint="@string/card_name_hint" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cardNickNameLayoutId"
+                style="@style/card_layout_style"
+                android:layout_below="@+id/cardNameLayoutId"
+                android:layout_gravity="top">
+
+                <TextView
+                    style="@style/card_text_style"
+                    android:text="@string/nick_name_text" />
+
+                <EditText
+                    android:id="@+id/cardHolderNickNameEdTxtId"
+                    style="@style/card_edit_text_style"
+                    android:hint="@string/card_nick_name_hint" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/expiryLayoutId"
+                android:orientation="horizontal"
+                style="@style/card_layout_style"
+                android:layout_below="@+id/cardNickNameLayoutId">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/card_text_style"
+                        android:text="@string/expiry_date_text" />
+
+                    <com.citrus.widgets.ExpiryDate
+                        android:id="@+id/cardExpiryDateId"
+                        style="@style/card_cvv_date_style"
+                        android:hint="@string/expiry_date_hint_text"
+                        android:imeOptions="actionNext"
+                        android:inputType="number|none"
+                        android:maxLength="5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/card_text_style"
+                        android:gravity="right"
+                        android:text="@string/card_cvv_text" />
+
+                    <EditText
+                        android:id="@+id/cardCvv"
+                        style="@style/card_cvv_date_style"
+                        android:hint="@string/card_cvv_hint_text"
+                        android:inputType="numberPassword"
+                        android:maxLength="4" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/payBtnId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/main_activity_login_button_margintop"
+                android:background="@color/main_activity_button_color"
+                android:text="@string/main_activity_login_btn_pay_text"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

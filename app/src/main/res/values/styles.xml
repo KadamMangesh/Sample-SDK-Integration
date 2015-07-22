@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/main_activity_button_color</item>
+        <item name="colorPrimaryDark">@color/main_activity_button_color</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+    <style name="dashboard_button_style" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">@dimen/dashboard_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_weight">0.25</item>
+        <item name="android:textSize">@dimen/dashboard_button_text_size</item>
+        <item name="android:background">@color/main_activity_button_color</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/dashboard_button_margin_top</item>
+    </style>
+
+    <style name="card_edit_text_style" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:inputType">text</item>
+        <item name="android:paddingLeft">@dimen/card_edit_text_padding_left</item>
+        <item name="android:paddingRight">@dimen/card_edit_text_padding_left</item>
+        <item name="android:textSize">@dimen/card_edit_text_size</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="card_text_style" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingLeft">@dimen/card_textview_padding_left</item>
+        <item name="android:textSize">@dimen/card_heading_text_size</item>
+    </style>
+
+    <style name="card_layout_style" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/card_layout_margin_top</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingLeft">@dimen/card_layout_padding_left</item>
+        <item name="android:paddingRight">@dimen/card_layout_padding_left</item>
+        <item name="android:textSize">@dimen/card_heading_text_size</item>
+    </style>
+
+    <style name="card_cvv_date_style" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">4</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingLeft">@dimen/card_edit_text_padding_left</item>
+        <item name="android:paddingRight">@dimen/card_layout_padding_left</item>
+        <item name="android:textSize">@dimen/card_edit_text_size</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+
+</resources>

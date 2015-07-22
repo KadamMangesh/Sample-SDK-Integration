@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Gautam/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.3.0/1b355f73402020c5a0dcca58affc3ec3dfeabac1/okio-1.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/okio-1.3.0-c830600f086e96377b367f5bee6989127d815e14.jar" />
+    </item>
+    <item
+        jar="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/exploded-aar/com.astuetz/pagerslidingtabstrip/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/classes-dfb0ff79a0445c9be16d8bffd5e92543eadaca33.jar" />
+    </item>
+    <item
+        jar="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/classes-9600b31837ef3255e7b2c0d1869d96fa1bfff08f.jar" />
+    </item>
+    <item
+        jar="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/exploded-aar/CitrusPayAssignment/citruslibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3511afd973ed4a54ce158cb749e8da3727ae17ed">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/classes-e4101f9b0a110afe747a6b5c689f20101c85516a.jar" />
+    </item>
+    <item
+        jar="/Softwares/Android/Android SDK/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-bfbe1138dad9ceb6d39f61a0bfd7b55d411cbbd6.jar" />
+    </item>
+    <item
+        jar="/Users/Gautam/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-b2221e1b6dbf380d8c37706ff66e42404533a84d.jar" />
+    </item>
+    <item
+        jar="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-5479da5703be418cc97245d8dbf5e2de0d8be613.jar" />
+    </item>
+    <item
+        jar="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/classes-24e56017f44de56dba68327bb70bbe9b30028a1d.jar" />
+    </item>
+    <item
+        jar="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/classes-fbdf40eeb5b2a6ca68dcf8a98f4cca7c86059f9a.jar" />
+    </item>
+    <item
+        jar="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/classes-c1d6f1599f654e12952c195aa4a9ea9422807ab5.jar" />
+    </item>
+    <item
+        jar="/Users/Gautam/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-3b54729e0a1c2dbdccf89d558df0b82bf7df3adf.jar" />
+    </item>
+    <item
+        jar="/Users/Gautam/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.3.0/2e7bc7033dc2c8423e661224171b3133fb155b28/okhttp-2.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/okhttp-2.3.0-af11c4c2f0ef52bdaf17142e92944f798b0b441b.jar" />
+    </item>
+    <item
+        jar="/Users/Gautam/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.3.0/4f12ec1e1455909e1f0b8530c719c90b2d01745/okhttp-urlconnection-2.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="04f12ec1e1455909e1f0b8530c719c90b2d01745">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.3.0-79eaadb67369e659c1805cfced9312b44ad271f0.jar" />
+    </item>
+    <item
+        jar="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/exploded-aar/com.orhanobut/logger/1.8/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="905a1a3170bf8e5f07e14217f5bdc2348f1425ca">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/classes-9120fb02c1c87b528ca3aebaf005cde4732e325a.jar" />
+    </item>
+    <item
+        jar="/Users/Gautam/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/gson-2.3.1-ef8e61ef6d6c0d2784bb52d506e21907bfc1d67b.jar" />
+    </item>
+    <item
+        jar="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/My Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/app/build/intermediates/pre-dexed/debug/classes-364ee744ae2db2196d0fee16253b031a6d5509b8.jar" />
+    </item>
+
+</items>

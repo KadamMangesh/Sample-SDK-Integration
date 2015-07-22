@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_activity_background_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/userBalanceTxtViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+
+        <Button
+            android:id="@+id/payBtnId"
+            style="@style/dashboard_button_style"
+            android:text="@string/main_activity_login_btn_pay_text" />
+
+        <Button
+            android:id="@+id/myBalanceBtnId"
+            style="@style/dashboard_button_style"
+            android:text="@string/dashboard_my_balance_btn_text" />
+
+        <Button
+            android:id="@+id/logoutBtnId"
+            style="@style/dashboard_button_style"
+            android:text="@string/dashboard_logout_btn_text" />
+
+    </LinearLayout>
+</LinearLayout>

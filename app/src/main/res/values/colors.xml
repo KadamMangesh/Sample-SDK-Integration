@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main_activity_background_color" type="color">#ffc000</item>
+    <item name="main_activity_button_color" type="color">#e89900</item>
+
+    <!--90A4AE 546E7A 78909C 546E7A 455A64  512DA8 283593-->
+    <item name="main_activity_button_text_color" type="color">#512DA8</item>
+
+    <item name="main_activity_header_text_color" type="color">#B71C1C</item>
+
+
+</resources>
