@@ -4,4 +4,3 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" android:showAsAction="never" />
 </menu>
-<!-- From: file:/My%20Workspace/AndroidStudioProjects/CitrusPay/CitrusLibrary/open-android-v3/CitrusPayAssignment/citruslibrary/res/menu/menu_citrus.xml -->
